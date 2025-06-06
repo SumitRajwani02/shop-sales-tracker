@@ -1,0 +1,25 @@
+backend:
+  name: github
+  repo: SumitRajwani02/shop-sales-tracker
+  branch: main
+  site_domain: sumitrajwani02.github.io
+  base_url: https://sumitrajwani02.github.io/shop-sales-tracker
+  auth_scope: repo
+  client_id: Ov23lixeMjynYBKuz2ul
+  client_secret: 01f3209f8190b2b3ac4d149a6dbfb4cd4ccc54bb
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "sales"
+    label: "Sales"
+    folder: "sales"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD" }
+      - { label: "Product", name: "product", widget: "string" }
+      - { label: "Info", name: "info", widget: "string" }
+      - { label: "Price", name: "price", widget: "number" }
+      - { label: "Shop", name: "shop", widget: "string" }
