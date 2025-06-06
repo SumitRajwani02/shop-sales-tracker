@@ -5,8 +5,8 @@ backend:
   site_domain: sumitrajwani02.github.io
   base_url: https://sumitrajwani02.github.io/shop-sales-tracker
   auth_scope: repo
-  client_id: YOUR_CLIENT_ID
-  client_secret: YOUR_CLIENT_SECRET
+  client_id: Ov23lixeMjynYBKuz2ul
+  client_secret: 01f3209f8190b2b3ac4d149a6dbfb4cd4ccc54bb
 
   
 media_folder: "images"
