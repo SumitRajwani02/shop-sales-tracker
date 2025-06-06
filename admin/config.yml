@@ -1,8 +1,14 @@
 backend:
   name: github
-  repo: SumitRajwani02/shop-sales-tracker  # <--- CHANGE this to your repo!
+  repo: SumitRajwani02/shop-sales-tracker
   branch: main
+  site_domain: sumitrajwani02.github.io
+  base_url: https://sumitrajwani02.github.io/shop-sales-tracker
+  auth_scope: repo
+  client_id: YOUR_CLIENT_ID
+  client_secret: YOUR_CLIENT_SECRET
 
+  
 media_folder: "images"
 public_folder: "/images"
 
